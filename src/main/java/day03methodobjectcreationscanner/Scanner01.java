@@ -12,8 +12,7 @@ public class Scanner01 {
 
         //3. adim: Uygun methodu kullanarak kullanicinin verdigi datayi memory e yerlestiriniz
         byte age = input.nextByte();
-        System.out.println("age = "+age);
-
+        System.out.println("age = " + age);
 
 
     }
