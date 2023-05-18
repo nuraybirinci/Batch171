@@ -1,4 +1,4 @@
-package day01variables;
+package day01variables; //içinde bulunan package ismi
 
 public class Variables01 {
 
@@ -25,10 +25,10 @@ public class Variables01 {
         /*
         java da temelde iki tip data vardir;
 
-        1)primitive data type:
+        1)primitive data type: (ilkel)
         char, boolean, byte, short, int, long, float, double
 
-        2)non-primitive data type:
+        2)non-primitive data type: (ilkel olmayan )
         string
 
          */

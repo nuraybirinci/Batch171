@@ -44,7 +44,7 @@ public class StringManipulations01 {
 
         //Ornek 6: "t" stringindeki space ler disindaki tum characterleri "?" e ceviriniz
         String t6=t.replaceAll("[^ ]","?");
-        System.out.println(t6); //??? ?? ??????????????
+        System.out.println(t6); //??? ?? ???????? ??????
 
         //Ornek 7:  "t" stringindeki sesli harfler disindaki tum characterleri "&" e ceviriniz
         String t7 = t.replaceAll("[^aeiouAEIOU]", "&");

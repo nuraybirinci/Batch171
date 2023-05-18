@@ -13,20 +13,20 @@ public class Variables02 {
     Note 1: primitive data type larini java olusturmustur, biz olusturamayiz
     Note 2: primitive data type larinin isimlerinde sadece kucuk harf kullanilir
     Note 3: primitive datalar data type larina gore memory de farkli farkli yer kaplarlar
-    Note 4: primitive atalar iclerinde sadece sizin atadiginiz degeri barindirirlar
+    Note 4: primitive datalar iclerinde sadece sizin atadiginiz degeri barindirirlar
      */
 
     /*
     Non-primitive Data Types
     Ornegin String non-primitive bir data typedir
     *Uretilen her bir class ayni zamanda bir "non-primitive" data type dir. Bu yüzden "non-primitive" data type lar sinirsiz sayidadir denilebilir
-    *Non-primitive data typelarin isimleeri buyuk harf ile baslar
-    *Non-primitive ler icin java memry de buyuklugune gore degisen boyutk-larda yer ayirir
+    *Non-primitive data typelarin isimle ri buyuk harf ile baslar
+    *Non-primitive ler icin java memory de buyuklugune gore degisen boyutlarda yer ayirir
 
 
      */
     public static void main(String[] args) {
-        //Ornek 1: Ulke ismi icin bir variable olusturun ve bir dger atayip console a yazdirin
+        //Ornek 1: Ulke ismi icin bir variable olusturun ve bir deger atayip console a yazdirin
         String ulkeIsmi = "Turkiye";
         System.out.println(ulkeIsmi);
 
