@@ -59,18 +59,16 @@ public class IncrementDecrement {
         //"post-increment" ve "pre-increment"
 
         int i = 10;
-        int k = i++;
+        int k = i++;//post incerement
 
-        System.out.println(i);//11 ==> i satir sonunda artirildigi icin i nin degeri 11 olur
-        System.out.println(k);//10 ==> i artirilmadan k sepetine konuldugu icin k nin degeri 10 olur
+        System.out.println(i);//11 ==> i artirilmadan "k" ya konuldugu icin "k" nin degeri 10 olur
+        System.out.println(k);//10 ==> i satir sonunda artirildigi icin 1 nin degeri 11 olur
 
 
         int m = 15;
-        int n = ++m;
-
-        System.out.println(m);//16 ==> m satir sonunda artirildigi icin m nin degeri 16 olur
-        System.out.println(n);//16 ==> m artirildiktan sonra n sepetine konuldugu icin n nin degeri 16 olur
-
+        int n = ++m;//pre incerement
+        System.out.println(m);//16
+        System.out.println(n);//16
 
         //Ornek
         int p = 17;
@@ -80,27 +78,26 @@ public class IncrementDecrement {
         System.out.println(r);//17
 
         int s = 20;
+
         int t = --s;
 
         System.out.println(s);
         System.out.println(t);
 
         /*
-        1) Increment artirmak demektir, Decrement azaltmak demektir
-        2) Increment toplama ve carpma ile , Decrment cikarma ve bolme ile yapilabilir
-        3) Increment
-            a)i=i+5;
-            b)i+=5;
-            c)Eger 1 ile artirma sozkonusu ise ozaman i++; tavsiye edilir
+        1)Increment artirmak demektir, decrement azaltmak demektir.
+        2) Increment toplama ve carpma ile, decrement cikarma ve bolme ile yapilabilir
+                a)i=i+5;
+                b)i+=5;
+                c)eger 1 ile artirma ==> i++
+                note:bu c sikki sadece 1 artirmak icin kullanilir
 
-            Decrement
-            a)i=i-5;
-            b)i-=5;
-            c)Eger 1 ile azaltma sozkonusu ise ozaman i--; tavsiye edilir
+                a)i=i-5;
+                b)i-=5;
+                c)eger 1 ile azaltma ==> i--
+                note:bu c sikki sadece 1 azaltmak icin kullanilir
 
          */
 
-
-
     }
-}
+    }
