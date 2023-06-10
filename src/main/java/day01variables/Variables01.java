@@ -112,9 +112,9 @@ public class Variables01 {
         //Ornek 10: Ogrenci notlari icin iki adet variable olusturunuz ve toplamlarini ekrana yazidiniz
 
         //-----------ekrana yazdirmak icin------------
-        System.out.print(5);//ekrana yazdirmak icindir ve pointer i bir sonraki satira koyar
-        System.out.println(15);//ekrana yazdirir ve pointer i ayni satirda tutar
-        //-------------------------------------------
+        System.out.print(5);//ekrana yazdirmak icindir ve pointer i ayni satirda tutar
+        System.out.println(15);//ekrana yazdirir ve pointer i bir sonraki satira koyar
+         //-------------------------------------------
 
         byte note1= 55;
         byte note2 =33;
