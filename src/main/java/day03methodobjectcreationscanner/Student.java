@@ -1,6 +1,6 @@
 package day03methodobjectcreationscanner;
 
-public class Student {
+public class  Student {
     //Variable (-->pasif ozellikler)
 
     public String name = "Ali Can";

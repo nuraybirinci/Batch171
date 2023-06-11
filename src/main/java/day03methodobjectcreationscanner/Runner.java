@@ -1,6 +1,6 @@
 package day03methodobjectcreationscanner;
 
-public class Runner {
+public class  Runner {
     public static void main(String[] args) {
         //Object nasil olusturulur
         //new keywordu sifirdan yeni bir obje olusturmak icin kullanilir

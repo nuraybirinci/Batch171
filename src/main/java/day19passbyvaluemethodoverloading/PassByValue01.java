@@ -47,7 +47,10 @@ public class PassByValue01 {
     4) java esnek bir dildir, istersek yazdigimiz kod ile orjinal degerin degismesini de temin edebiliriz
     Bakiniz line 16
 
-
+    Pass By Reference:
+    1) Pass by Reference da method a reference yollanir
+    2) Reference adres demektir. Adress yollaninca method adresi kullanarak orjinal degere ulasir ve orjinal degeri degistir.
+    Bu yuzden "C#" gibi Pass By Reference kullanan dillerde method variable in orjinal degerini degistirir.
 
  */
 

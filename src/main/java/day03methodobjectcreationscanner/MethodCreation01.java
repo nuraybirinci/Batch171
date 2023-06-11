@@ -25,11 +25,7 @@ public class MethodCreation01 {
         int sayi =5;
         karesiniAl(sayi);
 
-
-
-
     }
-
     private static void karesiniAl(int sayi) {
         System.out.println(sayi*sayi);
     }
