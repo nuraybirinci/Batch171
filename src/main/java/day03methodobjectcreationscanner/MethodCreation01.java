@@ -39,15 +39,11 @@ public class MethodCreation01 {
     }
 
     //Ornek 1: Verilen bir ondalik sayinin kupunu hesaplayan bir method olusturup kullaniniz.
-    static double getCube(double a) {
-        return a * a * a;
-    }
+    static double getCube(double a) {return a * a * a;}
     //Note: Access modifier i default yapmak isterseniz access modifier i YAZMAYINIZ..
 
     //Ornek 2: Girilen bir kelimeyi ekrana yazdiran bir method olusturup kullaniniz.
-    public static void print(String str){
-        System.out.println(str);
-    }
+    public static void print(String str){System.out.println(str);}
     //Eger bir method yeni bir data uretmiyor ise return type i void olur
     //methodun return type i void ise method body icinde return keywordu yazilmaz.
 
