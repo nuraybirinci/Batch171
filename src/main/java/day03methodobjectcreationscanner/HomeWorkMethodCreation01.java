@@ -1,6 +1,6 @@
 package day03methodobjectcreationscanner;
 
-public class DersTekrarMethodCreation01 {
+public class HomeWorkMethodCreation01 {
 
     /*
     Homework
