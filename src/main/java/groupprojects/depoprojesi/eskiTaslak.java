@@ -1,16 +1,9 @@
 package groupprojects.depoprojesi;
 
-public class UrunTanimlama {
+public class eskiTaslak {
+    /*
 
-    private int id;
-    private String urunIsmi;
-    private String uretici;
-    private int miktar;
-    private int birim;
-    private int raf;
-
-
-                  /*private void urunTanimlama() {
+                  private void urunTanimlama() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ürün Adı: ");
         String urunAdi = scanner.nextLine();
@@ -24,11 +17,11 @@ public class UrunTanimlama {
 
         System.out.println("Ürün tanımlandı. ID: " + idCounter);
         idCounter++;
-        */
 
 
-    public void urunTanimlama(String urunIsmi, String uretici, int miktar, int birim, int raf) {
-        this.urunIsmi = urunIsmi;
+
+   // public void urunTanimlama(String urunIsmi, String uretici, int miktar, int birim, int raf) {
+     //   this.urunIsmi = urunIsmi;
         this.uretici = uretici;
         this.miktar = miktar;
         this.birim = birim;
@@ -84,12 +77,5 @@ public class UrunTanimlama {
         this.id = id;
     }
 
-    @Override
-    public String toString() {
-        return "Ürünler: " +
-                "Ürün ismi: " + urunIsmi + "======================================"
-                ;
-    }
-
+     */
 }
-

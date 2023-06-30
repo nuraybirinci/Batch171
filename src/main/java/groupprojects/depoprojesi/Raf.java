@@ -1,11 +1,11 @@
 package groupprojects.depoprojesi;
 
 public class Raf {
-    /*
-    depo.urunuRafaKoy(1000, "raf1");
+
+   /* urun.urunuRafaKoy(1000, "raf1");
     public void urunuRafaKoy(int id, String raf) {
-        Urun urun = urunler.get(id);
-        if (urun !=" boş ") {
+        Urun urun = urun.get(id);
+        if (urun !=" null ") {
             urun.setRaf(raf);
             urunListele();
         } else {
@@ -18,14 +18,6 @@ public class Raf {
     }
 */
 
-    int miktar = 0;
-     String raf = " boş ";
-    UrunTanimlama urun = new UrunTanimlama();
-
-
-
-
 }
-
 
 
