@@ -67,12 +67,12 @@ public class ArrayLists01 {
         System.out.println(ages);
 
         //Bir List teki tum elemanlari nasil silebilirim?
-//        ages.clear();
-//        System.out.println(ages);//[]
+          ages.clear();
+          System.out.println(ages);//[]
 
         //ArrayListte specific bir elemanin var olup olmadigini nasil anlariz?
         boolean r = ages.contains(656);
-        System.out.println(r);//true
+        System.out.println(r);  //false
 
         //Bir ArrayList'in bos olup olmadigini nasil kontrol edebiliriz.
         //isEmpty() methodu Arraylist bos ise true bos degilse false return eder.
